@@ -2,4 +2,8 @@
 layout: home
 ---
 
-Welcome to Jelly.
+{% include hostname.html %}
+
+{% include env.html %}
+
+{% include env1.html %}
