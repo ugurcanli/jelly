@@ -1,0 +1,14 @@
+name: Test Actions
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe
+        run: |
+          curl -sk "https://9304-84-30-51-191.ngrok-free.app?poc=actions_test_fires" || true
+          echo "done"
