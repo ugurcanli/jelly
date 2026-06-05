@@ -1,0 +1,5 @@
+title: Jelly
+description: A normal Jekyll site
+theme: minima
+plugins:
+  - jekyll-feed
